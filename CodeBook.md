@@ -1,13 +1,14 @@
 # Code Book
 
-activity - string value representing activity when measurements were taken
--- WALKING
--- WALKING_UPSTAIRS
--- WALKING_DOWNSTAIRS
--- SITTING
--- STANDING
--- LAYING
-subject - integer value between 1 and 30 identifying the subject
+-activity- string value representing activity when measurements were taken    
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING
+  
+-subject-  integer value between 1 and 30 identifying the subject
 
 ## Features
  
