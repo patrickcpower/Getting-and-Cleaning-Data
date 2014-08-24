@@ -7,7 +7,7 @@ The name of the function is run_analysis() and it is contained in the file
 run_analysis.R
 The path of the directory to which the data has been extracted must be passed to the function.
 An example of running the function is:
-run_analysis("C:\\datascience\\UCI HAR Dataset")
+```run_analysis("C:\\datascience\\UCI HAR Dataset")```
 
 The data processed by this function was collected from the accelerometers 
 from the Samsung Galaxy S smartphone.
@@ -43,12 +43,12 @@ for each activity and each subject.
 The features containing mean and standard deviation were extracted by checking 
 which had the phrases 'Mean', 'mean' and 'std'.
 The feature names were tidied by performing the following transformations on the names:
-  Changing all '-' to '_'
-  Removing '()' found at the end of names
-  Chenging '(' to '_'
-  Changing ')' to '_'
-  Changing ',' to '_'
-  Changing '__' to '_'
+* Changing all '-' to '_'
+* Removing '()' found at the end of names
+* Changing '(' to '_'
+* Changing ')' to '_'
+* Changing ',' to '_'
+* Changing '__' to '_'
 Thus tBodyAcc-mean()-X becomes tBodyAcc_mean_X
 and tGravityAccMag-std() becomes tGravityAccMag_std.
 
@@ -58,7 +58,6 @@ The data has been tidied as per Hadley Wickham's paper Tidy Data
 
 
 
-References
---------------------------------------------------------------------------------
+## References
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 

@@ -9,7 +9,7 @@ activity - string value representing activity when measurements were taken
 -- LAYING
 subject - integer value between 1 and 30 identifying the subject
 
-# Features
+## Features
 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -25,18 +25,18 @@ These signals were used to estimate variables of the feature vector for each pat
 
 The set of variables that were estimated from these signals are: 
 
-_mean: Mean value
-_std: Standard deviation
-_meanFreq: Weighted average of the frequency components to obtain a mean frequency
+\_mean: Mean value
+\_std: Standard deviation
+\_meanFreq: Weighted average of the frequency components to obtain a mean frequency
 angle(): Angle between to vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-_gravityMean
-_tBodyAccMean_
-_tBodyAccJerkMean_
-_tBodyGyroMean_
-_tBodyGyroJerkMean_
+\_gravityMean
+\_tBodyAccMean\_
+\_tBodyAccJerkMean\_
+\_tBodyGyroMean\_
+\_tBodyGyroJerkMean\_
 
 The full list of mean variables are:
 
