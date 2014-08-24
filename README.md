@@ -2,8 +2,12 @@
 Getting and Cleaning Data
 ----------------------------------------------------------------------------
 The goal of this project is to create a function that will prepare tidy data that can be used for later analysis.
+
 The name of the function is run_analysis() and it is contained in the file
 run_analysis.R
+The path of the directory to which the data has been extracted must be passed to the function.
+An example of running the function is:
+run_analysis("C:\\datascience\\UCI HAR Dataset")
 
 The data processed by this function was collected from the accelerometers 
 from the Samsung Galaxy S smartphone.
@@ -51,7 +55,6 @@ and tGravityAccMag-std() becomes tGravityAccMag_std.
 The data has been tidied as per Hadley Wickham's paper Tidy Data
 (http://vita.had.co.nz/papers/tidy-data.pdf)
 
-The path of the directory to which the data has been extracted must be passed to the function.
 
 
 
