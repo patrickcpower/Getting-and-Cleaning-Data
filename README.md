@@ -1,12 +1,11 @@
 
-Getting and Cleaning Data
-----------------------------------------------------------------------------
-The goal of this project is to create a function that will prepare tidy data that can be used for later analysis.
-
+# Getting and Cleaning Data
+The goal of this project is to create a function that will prepare tidy data that can be used for later analysis.  
+  
 The name of the function is run_analysis() and it is contained in the file
-run_analysis.R
-The path of the directory to which the data has been extracted must be passed to the function.
-An example of running the function is:
+run_analysis.R  
+The path of the directory to which the data has been extracted must be passed to the function.  
+An example of running the function is:  
 ```run_analysis("C:\\datascience\\UCI HAR Dataset")```
 
 The data processed by this function was collected from the accelerometers 
@@ -32,12 +31,12 @@ A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 The run_analysis function performs the following:
--- Merges the training and the test sets to create one data set.
--- Extracts only the measurements on the mean and standard deviation for each measurement. 
+* Merges the training and the test sets to create one data set.
+* Extracts only the measurements on the mean and standard deviation for each measurement. 
     
--- Uses descriptive activity names to name the activities in the data set
--- Appropriately labels the data set with descriptive variable names. 
--- Creates a second, independent tidy data set with the average of each variable
+* Uses descriptive activity names to name the activities in the data set
+* Appropriately labels the data set with descriptive variable names. 
+* Creates a second, independent tidy data set with the average of each variable
 for each activity and each subject. 
 
 The features containing mean and standard deviation were extracted by checking 
@@ -49,15 +48,17 @@ The feature names were tidied by performing the following transformations on the
 * Changing ')' to '_'
 * Changing ',' to '_'
 * Changing '__' to '_'
-Thus tBodyAcc-mean()-X becomes tBodyAcc_mean_X
-and tGravityAccMag-std() becomes tGravityAccMag_std.
+  
+Thus tBodyAcc-mean()-X becomes tBodyAcc_mean_X  
+and tGravityAccMag-std() becomes tGravityAccMag_std.  
 
-The data has been tidied as per Hadley Wickham's paper Tidy Data
+The data has been tidied as per Hadley Wickham's paper *Tidy Data*  
 (http://vita.had.co.nz/papers/tidy-data.pdf)
 
 
 
 
-## References
+## References  
+  
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
